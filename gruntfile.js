@@ -9,7 +9,10 @@ module.exports = function(grunt) {
 				files: {
 					'js/scripts.js' : ['_/components/js/*.js']
 				} // files
-			} // my_target
+			}, // target
+			options {
+				preserveComments: 'some'
+			}
 		}, //uglify
 		compass: {
 			dev: {
