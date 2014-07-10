@@ -1,0 +1,24 @@
+// Susy setup ----------------------------
+$total-columns			: 	12;
+$column-width			: 	4em;
+$gutter-width			:	1em;
+$grid-padding			:	$gutter-width;
+
+@include border-box-sizing;
+
+// breakpoints
+$small 					:	30em;
+$medium					:	47em;
+$large					:	75em;
+
+
+
+// layout container
+.layout {
+	@include container;
+	padding: 3%;
+}
+
+.hero {
+	@include hero-background('misc/hero.jpg');
+}
