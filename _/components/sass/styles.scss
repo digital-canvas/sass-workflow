@@ -1,8 +1,10 @@
+@import "variables";
+
 @import "compass";
 @import "compass/reset";
 @import "susy";
+@import "../../../vendor/font-awesome/scss/font-awesome.scss";
 
-@import "variables";
 @import "mixins";
 @import "layout";
 @import "base";

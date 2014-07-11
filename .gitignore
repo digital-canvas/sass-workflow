@@ -1,7 +1,7 @@
 composer.phar
-vendor/
+/vendor
 .DS_Store
 .Trashes
 .sass-cache
 *.scssc
-node_modules
+/node_modules

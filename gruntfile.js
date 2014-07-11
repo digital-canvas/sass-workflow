@@ -7,21 +7,26 @@ module.exports = function(grunt) {
 		uglify: {
 			my_target: {
 				files: {
-					'js/scripts.js' : ['_/components/js/*.js']
+					'js/scripts.js' : [	'vendor/html5shiv/dist/html5shiv.js',
+										'vendor/smartmenus/src/jquery.smartmenus.js',
+										'_/components/js/*.js'
+										]
 				} // files
 			}, // target
-			options {
+			options: {
 				preserveComments: 'some'
 			}
 		}, //uglify
 		compass: {
 			dev: {
 				options: {
+					bundleExec: true,
 					config: 'dev.rb'
 				} // options
 			}, // dev
 			production: {
 				options: {
+					bundleExec: true,
 					config: 'production.rb'
 				} // options
 			} // dev

@@ -1,0 +1,12 @@
+{
+  "name": "sass-workflow",
+  "dependencies": {
+    "jquery": "1.11.*",
+    "bootstrap-sass": "3.*",
+    "font-awesome": "4.*",
+    "html5shiv": "*",
+    "respond": "*",
+    "json3": "*",
+    "smartmenus": "~0.9.6"
+  }
+}

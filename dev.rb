@@ -1,3 +1,4 @@
+require 'susy'
 environment = :development
 css_dir = 'css'
 sass_dir = '_/components/sass'

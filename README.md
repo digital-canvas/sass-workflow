@@ -6,10 +6,15 @@ sass-workflow project is a starting point for streamlined responsive css / html 
 Project uses:
 * sass
 * compass 
-* susy 
 * grunt
+* bower
+* susy 2
+* custom bootstrap
 * google fonts
-* font awesome.
+* font-awesome
+* jquery
+* smartmenus
+
 
 # Workflow Setup
 
@@ -21,8 +26,11 @@ Project uses:
 4. > npm install
 5. > sudo npm install -g grunt-cli
 6. install ruby 
-7. > sudo gem install compass
-8. > sudo gem install susy
+7. install bower > sudo npm -g install bower
+8. bower install
+9. install bundler
+10. > sudo bundle install
+
 
 ## Use 
 

@@ -1,8 +1,12 @@
 // Susy setup ----------------------------
-$total-columns			: 	12;
-$column-width			: 	4em;
-$gutter-width			:	1em;
-$grid-padding			:	$gutter-width;
+$susy: (
+		columns: 12,
+		gutters:  1/4,
+		math: fluid,
+		output: float
+		);
+	
+
 
 @include border-box-sizing;
 
@@ -21,4 +25,15 @@ $large					:	75em;
 
 .hero {
 	@include hero-background('misc/hero.jpg');
+}
+
+
+p {
+	padding-bottom:1.5em;
+}
+
+.layout {
+	
+@include container(80%);
+max-width: 1140px;
 }
